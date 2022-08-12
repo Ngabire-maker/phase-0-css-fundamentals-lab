@@ -5,7 +5,8 @@ body {
 }
   h1 {  
     text-align:center;
-   }
+   }  
+   
   nav {
     text-align: center;
    }
@@ -13,10 +14,10 @@ body {
     padding-right:10px;
     padding-left: 10px;
       }
-  
+
   #featured-property/*bisaba am<p>yayo yandikwe indani y property yayo*/
-  p{
-    text-align: center;
+    p{
+    text-align:center;
     width: 800px;
     margin: auto; /*aka kantu gatumye line ya <P>ija hagati*/
      }
@@ -24,18 +25,17 @@ body {
           display: block;
           margin-left: auto;
           margin-right: auto;
-        }
-  figcaption{
+      }
+  figcaption{/*vyatumye aka karongo kaja a la ligne just munsi y image*/
     text-align: center;
              }
+
   #details {
-    float: left;
-    width :25%;
-    background-color:red;
-    text-align: center;
-    bottom: auto;
+    background-color:rgb(255, 13, 0);
+    column-count: 4;
+            }/*ceci a permis tout le text en bas de change de couleurs*/
+    
   
-  }
     
 
 
